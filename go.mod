@@ -1,4 +1,4 @@
-module demo
+module github.com/northbright/cobra-viper-demo
 
 go 1.17
 
