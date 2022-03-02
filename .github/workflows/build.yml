@@ -36,6 +36,9 @@ jobs:
     - name: Test
       run: go test -v ./...
 
+    - name: Show PWD
+      run: pwd
+
     - name: Run Root Command
       run: ./demo
 
