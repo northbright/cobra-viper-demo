@@ -39,6 +39,9 @@ jobs:
     - name: Show PWD
       run: pwd
 
+    - name: ls
+      run: ls -la
+
     - name: Run Root Command
       run: ./demo
 
