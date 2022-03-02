@@ -4,7 +4,7 @@ Copyright © 2022 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "demo/cmd"
+import "github.com/northbright/cobra-viper-demo/cmd"
 
 func main() {
 	cmd.Execute()
