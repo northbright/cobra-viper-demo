@@ -35,3 +35,21 @@ jobs:
 
     - name: Test
       run: go test -v ./...
+
+    - name: Run Root Command
+      run: ./demo
+
+    - name: Run goodbye Sub Command
+      run: ./demo goodbye Frank
+
+    - name: Run goodnight Sub Command Without Flags
+      run: ./demo goodnight Frank
+
+    - name: Run goodnight Sub Command With Flags
+      run: ./demo goodnight Frank --moon --sleepingface
+
+    - name: Run hi Sub Command Without Flags
+      run: ./demo hi Frank
+
+    - name: Run hi Sub Command With Flags
+      run: ./demo hi Frank --emoji 😼
