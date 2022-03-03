@@ -31,16 +31,7 @@ jobs:
         go-version: ${{ matrix.go }}
 
     - name: Build
-      run: go build -v ./... && ls -la
-
-    - name: Test
-      run: ls -la && go test -v ./...
-
-    - name: Show PWD
-      run: pwd
-
-    - name: ls
-      run: ls -la
+      run: go build -v
 
     - name: Run Root Command
       run: ./demo
