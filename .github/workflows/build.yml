@@ -46,7 +46,7 @@ jobs:
       run: ./demo goodnight Frank --moon --sleepingface
 
     - name: Run hi Sub Command Without Flags
-      run: echo "emoji: 🐱" > $HOME/.demo.yaml && ./demo hi Frank
+      run: echo $HOME && ./demo hi Frank
 
     - name: Run hi Sub Command With Flags
       run: ./demo hi Frank --emoji 😼
