@@ -9,7 +9,6 @@
 !go.mod
 !go.sum
 !*.json
-!.travis.yml
 !*.pem
 config.json
 !*.yaml
