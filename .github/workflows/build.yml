@@ -14,11 +14,10 @@ jobs:
         os:
         - Windows-2019
         - macOS-10.15
-        - Ubuntu-18.04
         - Ubuntu-20.04
         go:
-        - 1.16
         - 1.17
+        - 1.18
 
       fail-fast: false
     steps:
